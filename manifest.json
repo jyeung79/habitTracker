@@ -1,0 +1,17 @@
+{
+    "name": "Habit Tracking",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "activeTab",
+        "https://youtube.com/*",
+        "https://facebook.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "manifest_version": 2
+}
