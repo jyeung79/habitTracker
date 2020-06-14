@@ -6,8 +6,8 @@
         "webRequest",
         "webRequestBlocking",
         "activeTab",
-        "https://youtube.com/*",
-        "https://facebook.com/*"
+        "https://www.youtube.com/*",
+        "https://www.facebook.com/*"
     ],
     "background": {
         "scripts": ["background.js"],

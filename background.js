@@ -3,6 +3,6 @@ chrome.webRequest.onBeforeRequest.addListener(
         console.log('In webRequest');
         return {cancel: true};
     }, {
-        urls: ["https://youtube.com/*"]
+        urls: ["https://www.youtube.com/*", "https://www.facebook.com/*"]
     }, ["blocking"]
 );
